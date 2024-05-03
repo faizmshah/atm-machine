@@ -1,0 +1,23 @@
+{
+  "name": "@faizsmshah/atm_machin",
+  "version": "1.0.0",
+  "description": "This project is a command-line interface (CLI) based ATM simulator focusing on two main functionalities: withdrawing funds and checking balance. Users can interact with the simulator to perform these essential ATM transactions. The interface provides clear prompts and instructions to guide users through each step of the process, ensuring a straightforward and user-friendly experience.",
+  "main": "index.js",
+  "type": "module",
+  "bin": "main.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
